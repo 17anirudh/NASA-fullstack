@@ -1,0 +1,1 @@
+koi_score koi_period koi_impact koi_duration koi_depth koi_prad koi_teq koi_max_sngle_ev koi_max_mult_ev koi_model_snr koi_count koi_num_transits koi_bin_oedp_sig koi_steff koi_slogg koi_srad koi_smass koi_kepmag koi_gmag koi_rmag koi_jmag koi_kmag koi_fwm_stat_sig koi_fwm_prao koi_fwm_pdeco koi_dicco_mra koi_dicco_msky koi_dikco_mra koi_dikco_msky 

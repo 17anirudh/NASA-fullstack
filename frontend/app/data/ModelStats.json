@@ -1,0 +1,30 @@
+[
+  {
+    "name": "LightGBM",
+    "accuracy": 0.859473,
+    "precision": 0.857323,
+    "recall": 0.859473,
+    "f1_score": 0.858222
+  },
+  {
+    "name": "XGBoost",
+    "accuracy": 0.849854,
+    "precision": 0.849013,
+    "recall": 0.849854,
+    "f1_score": 0.849419
+  },
+  {
+    "name": "CatBoost",
+    "accuracy": 0.852781,
+    "precision": 0.852051,
+    "recall": 0.852781,
+    "f1_score": 0.852348
+  },
+  {
+    "name": "Voting",
+    "accuracy": 0.8578,
+    "precision": 0.855196,
+    "recall": 0.8578,
+    "f1_score": 0.856301
+  }
+]

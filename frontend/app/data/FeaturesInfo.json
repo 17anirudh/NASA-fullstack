@@ -1,0 +1,209 @@
+{
+  "koi_score": {
+    "type": "number",
+    "mean": 0.4584518332636275,
+    "std": 0.44123148353121955,
+    "min": 0,
+    "max": 1,
+    "description": "A value between 0 and 1 that indicates the confidence in the KOI disposition"
+  },
+  "koi_period": {
+    "type": "number",
+    "mean": 62.26732860817468,
+    "std": 126.6168568639902,
+    "min": 0.293630085,
+    "max": 1693.663623,
+    "description": "The interval between consecutive planetary transits."
+  },
+  "koi_eccen": {
+    "type": "number",
+    "mean": 0,
+    "std": 0,
+    "min": 0,
+    "max": 0,
+    "description": "Eccentrincity Value"
+  },
+  "koi_impact": {
+    "type": "number",
+    "mean": 0.6878297783354245,
+    "std": 2.9382626684669937,
+    "min": 0,
+    "max": 100.806,
+    "description": "The sky-projected distance between the center of the stellar disc and the center of the planet disc at conjunction, normalized by the stellar radius."
+  },
+  "koi_duration": {
+    "type": "number",
+    "mean": 5.639043539662624,
+    "std": 6.533960015986627,
+    "min": 0.052,
+    "max": 138.54,
+    "description": "The duration of the observed transits. Duration is measured from first contact between the planet and star until last contact."
+  },
+  "koi_depth": {
+    "type": "number",
+    "mean": 22944.69293182769,
+    "std": 81329.60633180614,
+    "min": 0,
+    "max": 1540000,
+    "description": "The fraction of stellar flux lost at the minimum of the planetary transit."
+  },
+  "koi_prad": {
+    "type": "number",
+    "mean": 91.74992611180816,
+    "std": 2887.187566596238,
+    "min": 0.08,
+    "max": 200346,
+    "description": "The radius of the planet. Planetary radius is the product of the planet star radius ratio and the stellar radius."
+  },
+  "koi_teq": {
+    "type": "number",
+    "mean": 1076.5279520423812,
+    "std": 846.8074503744664,
+    "min": 92,
+    "max": 14667,
+    "description": "Approximation for the temperature of the planet"
+  },
+  "koi_max_sngle_ev": {
+    "type": "number",
+    "mean": 161.11716896188483,
+    "std": 760.3584700731476,
+    "min": 2.4174368,
+    "max": 22982.162,
+    "description": "The maximum calculated value of the Single Event Statistic"
+  },
+  "koi_max_mult_ev": {
+    "type": "number",
+    "mean": 933.8409393549839,
+    "std": 4084.8307318472553,
+    "min": 7.1052256,
+    "max": 120049.68,
+    "description": "The maximum calculated value of the Multiple Event Statistic"
+  },
+  "koi_model_snr": {
+    "type": "number",
+    "mean": 252.59742088387003,
+    "std": 790.8093263109375,
+    "min": 0,
+    "max": 9054.7,
+    "description": "Model Signal-to-Noise Ratio - Quality of detection"
+  },
+  "koi_count": {
+    "type": "number",
+    "mean": 1.410149170500488,
+    "std": 0.8793140119871554,
+    "min": 1,
+    "max": 7,
+    "description": "Number of planet candidates identified in a system."
+  },
+  "koi_num_transits": {
+    "type": "number",
+    "mean": 356.68297783354245,
+    "std": 522.5582669635414,
+    "min": 0,
+    "max": 2664,
+    "description": "The number of expected transits or partially-observed transits associated with the planet candidate occurring within the searched light curve."
+  },
+  "koi_bin_oedp_sig": {
+    "type": "number",
+    "mean": 0.41955990520005576,
+    "std": 0.4616369604461472,
+    "min": -1,
+    "max": 1,
+    "description": "Binary Discrimination Test - Eclipsing binary test"
+  },
+  "koi_steff": {
+    "type": "number",
+    "mean": 5712.019657047261,
+    "std": 784.8739137880359,
+    "min": 2661,
+    "max": 15896,
+    "description": "The photospheric temperature of the star."
+  },
+  "koi_slogg": {
+    "type": "number",
+    "mean": 4.3171341140387565,
+    "std": 0.42347118039809906,
+    "min": 0.047,
+    "max": 5.283,
+    "description": "Stellar Surface Gravity (log g) - Host star gravity"
+  },
+  "koi_srad": {
+    "type": "number",
+    "mean": 1.7064635438449742,
+    "std": 6.290912550056108,
+    "min": 0.116,
+    "max": 229.908,
+    "description": "The photospheric radius of the star"
+  },
+  "koi_smass": {
+    "type": "number",
+    "mean": 1.0197575630837863,
+    "std": 0.3346207981518798,
+    "min": 0,
+    "max": 3.735,
+    "description": "The mass of the star"
+  },
+  "koi_kepmag": {
+    "type": "number",
+    "mean": 14.257916213578698,
+    "std": 1.3929874806027713,
+    "min": 6.966,
+    "max": 20.003,
+    "description": "Kepler-band"
+  },
+  "koi_fwm_stat_sig": {
+    "type": "number",
+    "mean": 0.13631660393140946,
+    "std": 0.24347494720257057,
+    "min": 0,
+    "max": 1,
+    "description": "Indicates whether there is a statistically significant flux-weighted offset between in-transit and out-of-transit images."
+  },
+  "koi_fwm_prao": {
+    "type": "number",
+    "mean": 0.00025513655374320384,
+    "std": 0.06185536217988318,
+    "min": -4,
+    "max": 1.19,
+    "description": "The calculated Right Ascension offset of the transiting or eclipsing object from the KIC location of the target star."
+  },
+  "koi_fwm_pdeco": {
+    "type": "number",
+    "mean": -0.0011149393280356894,
+    "std": 0.10130647874202707,
+    "min": -6,
+    "max": 5,
+    "description": "The calculated Declination offset of the transiting or eclipsing object from the KIC location of the target star."
+  },
+  "koi_dicco_mra": {
+    "type": "number",
+    "mean": -0.033339188624006685,
+    "std": 2.272793239079727,
+    "min": -25.1,
+    "max": 29,
+    "description": "The angular offset in the RA (J2000) direction between the best-fit PRF centroids from the Out-Of-Transit image and the Difference Image by averaging the weighted single-quarter measurements."
+  },
+  "koi_dicco_msky": {
+    "type": "number",
+    "mean": 1.7552152516380872,
+    "std": 2.7503355933661315,
+    "min": 0,
+    "max": 42.5,
+    "description": "The angular offset on the plane of the sky between the best-fit PRF centroids from the Out-Of-Transit image and the Difference Image by averaging the weighted single-quarter measurements"
+  },
+  "koi_dikco_mra": {
+    "type": "number",
+    "mean": -0.030579813188345174,
+    "std": 2.238788335034144,
+    "min": -27.8,
+    "max": 30,
+    "description": "The angular offset in the RA (J2000) direction between the best-fit PRF centroids from the difference image and the Kepler Input Catalog position by averaging the weighted single-quarter measurements"
+  },
+  "koi_dikco_msky": {
+    "type": "number",
+    "mean": 1.7060469817370696,
+    "std": 2.742066763587043,
+    "min": 0,
+    "max": 42.4
+  }
+}

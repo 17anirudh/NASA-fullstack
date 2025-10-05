@@ -1,0 +1,9 @@
+{
+    "Orbital Properties": ["koi_period", "koi_eccen", "koi_impact", "koi_duration", "koi_depth"],
+    "Planetary Properties": ["koi_prad", "koi_teq"],
+    "Detection Statistics": ["koi_max_sngle_ev", "koi_max_mult_ev", "koi_model_snr", "koi_num_transits"],
+    "System Properties": ["koi_count"],
+    "Stellar Properties": ["koi_steff", "koi_slogg", "koi_srad", "koi_smass", "koi_kepmag"],
+    "Validation Metrics": ["koi_score", "koi_bin_oedp_sig"],
+    "Centroid Analysis": ["koi_fwm_stat_sig", "koi_fwm_prao", "koi_fwm_pdeco", "koi_dicco_mra", "koi_dicco_msky", "koi_dikco_mra", "koi_dikco_msky"]
+}
