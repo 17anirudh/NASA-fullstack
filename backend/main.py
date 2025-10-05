@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-import uvicorn, joblib
+import joblib
 import numpy as np
 import pandas as pd
 import logging
