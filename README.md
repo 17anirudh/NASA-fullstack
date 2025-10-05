@@ -7,8 +7,8 @@
 - ML logic: Pandas, Numpy, Matplotlib, Seaborn, Sklearn (Model splitting, KNNImputer, SeelectKBest, Pipeline, GridSearchCV, VotingClassifier, NearestNeighbours, classification metrics), XGBoost, Catboost, LightGBM
 
 #### frontend/
-Framework: NextJS
-Styling: Tailwind (CSS-in-JS CSS utility classes)
-Components: Shadcn (Vercel's Headless component abstracts radix and tailwind), Accentrain UI (Styled Component abstracts Framer-motion and shadcn)
-Form: React-hook-form (Shadcn-style) and zod (CSR and SSR form validation)
+- Framework: NextJS
+- Styling: Tailwind (CSS-in-JS CSS utility classes)
+- Components: Shadcn (Vercel's Headless component abstracts radix and tailwind), Accentrain UI (Styled Component abstracts Framer-motion and shadcn)
+- Form: React-hook-form (Shadcn-style) and zod (CSR and SSR form validation)
 Web bundler: Turbopack (Vercel's webbundler built on Rust)
