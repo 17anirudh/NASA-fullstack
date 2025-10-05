@@ -3,7 +3,7 @@
 ## TEAM ZENARA
 
 #### backend/
-- Core Backend: FastAPI (HTTPException, CORSMiddleWare), logging, Sklearn(Pipeline, SimpleImputer, LabelEncoder, NearestNeighbour) , Pandas, Pydantic and Numoy
+- Core Backend: FastAPI (HTTPException, CORSMiddleWare), logging, Sklearn(Pipeline, SimpleImputer, LabelEncoder, NearestNeighbour) , Pandas, Pydantic and Numpy
 - ML logic: Pandas, Numpy, Matplotlib, Seaborn, Sklearn (Model splitting, KNNImputer, SeelectKBest, Pipeline, GridSearchCV, VotingClassifier, NearestNeighbours, classification metrics), XGBoost, Catboost, LightGBM
 
 #### frontend/
